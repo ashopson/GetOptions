@@ -1,11 +1,7 @@
-# GetOptions -- A C++ Command-Line Processing Class
+# GetOptions -- A C/C++ Command-Line Processing Class
 ## Author "A. Scott Hopson" <ashopson@gmail.com>
 
-This project is a C++ class to implement Command-Line processing. It provides options similar to what's found in the Apache Commons CLI 1.2 for Java
-
-The class provides a collection of Options and a command-line parser.
-
-The current version provides the ability to define options containing both the long and short name where the short name is a single character with a '-' prefix and the long name is one or more characters with '--' prefixed.
+This project is a C++ class to implement Command-Line processing. It provides options similar to what's found in the Apache Commons CLI 1.2 for Java. The class provides a collection of Options and a command-line parser. The current version provides the ability to define options containing both the long and short name where the short name is a single character with a '-' prefix and the long name is one or more characters with '--' prefixed.
 
 ### For example:
   Option -f or --filename
