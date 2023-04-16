@@ -17,7 +17,7 @@ This project is a C++ class to implement Command-Line processing. It provides op
   #### void help(string comment);
   #### void help();
   
-  The help() option could be updated to provide more formating. Currently it just displays the options and any description.
+  The help() option could be updated to provide more formatting. Currently it just displays the options and any description.
   
   The help(string comment) method displays the same information as above with the comment preceeding it.
   
